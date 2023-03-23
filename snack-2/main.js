@@ -13,10 +13,6 @@ const names = [
 
 console.log(names);
 
-/* const toUpperCase = names[0].toUpperCase() + str.slice(1);
-
-console.log(toUpperCase); */
-
 const newArray = []
 
 names.forEach((word) => {

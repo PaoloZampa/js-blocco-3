@@ -3,9 +3,12 @@
 Es: [‘pippo’, ‘PLUTO’, ‘Paperino’] => [‘Pippo’, ‘Pluto’, ‘Paperino’] */
 
 const names = [
-    'pLiuu',
-    'fsaF',
-    'PFSFA'
+    'paOlo',
+    'FaBBBBio',
+    'giOvanni',
+    'mUCIACCIA',
+    'ROCCO',
+    'CaToNe'
 ]
 
 /* const toUpperCase = names[0].toUpperCase() + str.slice(1);
@@ -13,6 +16,7 @@ const names = [
 console.log(toUpperCase); */
 
 names.forEach((word) => {
-    const modStr = word[1].toUpperCase() + word.toLowerCase(1)
+    const lowcase = word.slice(1)
+    const modStr = word[0].toUpperCase() + lowcase.toLowerCase()
     console.log(modStr);
 })

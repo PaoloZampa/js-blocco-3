@@ -11,12 +11,19 @@ const names = [
     'CaToNe'
 ]
 
+console.log(names);
+
 /* const toUpperCase = names[0].toUpperCase() + str.slice(1);
 
 console.log(toUpperCase); */
+
+const newArray = []
 
 names.forEach((word) => {
     const lowcase = word.slice(1)
     const modStr = word[0].toUpperCase() + lowcase.toLowerCase()
     console.log(modStr);
+    newArray.push(modStr)
 })
+
+console.log(newArray);
